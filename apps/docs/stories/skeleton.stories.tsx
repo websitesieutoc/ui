@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Skeleton } from './skeleton';
+import { Skeleton } from '@sieutoc/ui';
+
 const meta = {
   title: 'Skeleton',
   component: Skeleton,

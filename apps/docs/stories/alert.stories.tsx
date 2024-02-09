@@ -1,6 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Terminal, AlertCircle } from 'lucide-react';
-import { Alert, AlertDescription, AlertTitle, AlertVariants } from './alert';
+import {
+  Alert,
+  AlertDescription,
+  AlertTitle,
+  AlertVariants,
+} from '@sieutoc/ui';
 
 const variantOptions: AlertVariants[] = ['default', 'destructive'];
 const meta: Meta<typeof Alert> = {

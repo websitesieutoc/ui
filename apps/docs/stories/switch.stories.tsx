@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Switch } from './switch';
-import { Label } from '.';
+import { Label, Switch } from '@sieutoc/ui';
 
 // const switchSizes: SwitchTypes['size'][] = ['xs', 'sm', 'md', 'lg'];
 const meta = {

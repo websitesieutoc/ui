@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Badge, BadgeProps } from './badge';
+import { Badge, BadgeProps } from '@sieutoc/ui';
 
 const variants: BadgeProps['variant'][] = [
   'default',

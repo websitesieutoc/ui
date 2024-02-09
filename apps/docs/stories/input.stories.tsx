@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-
-import { Input, InputProps } from './input';
+import { Input, InputProps } from '@sieutoc/ui';
 
 const sizeOptions: InputProps['size'][] = ['xs', 'sm', 'md', 'lg', 'xl'];
 

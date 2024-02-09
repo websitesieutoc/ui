@@ -1,12 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import {
+  Card,
+  CardContent,
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from './carousel';
-import { Card, CardContent } from '.';
+} from '@sieutoc/ui';
 
 const meta = {
   title: 'Carousel',

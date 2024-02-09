@@ -1,7 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-
-import { HoverCard, HoverCardContent, HoverCardTrigger } from './hover-card';
-import { Button } from './button';
+import { Button, HoverCard, HoverCardContent, HoverCardTrigger } from '@sieutoc/ui';
 
 const meta: Meta<typeof HoverCard> = {
   title: 'Hover Card',

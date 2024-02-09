@@ -10,8 +10,10 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts --external react",
-    "dev": "tsup src/index.ts --format esm,cjs --watch --dts --external react",
+    "build:base": "JSX=1 tsup src/index.ts --external react --format esm,cjs",
+    "build:ts": "tsc --project tsconfig.json --emitDeclarationOnly --declaration",
+    "build": "pnpm run build:base -- --minify --onSuccess \"npm run build:ts\"",
+    "dev": "pnpm run build -- --clean --watch",
     "lint": "eslint . --max-warnings 0",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
@@ -45,6 +47,7 @@
     "lucide-react": "0.321.0",
     "next-themes": "0.2.1",
     "react-day-picker": "8.10.0",
+    "react-hook-form": "7.50.1",
     "react-resizable-panels": "2.0.3",
     "sonner": "1.4.0",
     "tailwind-merge": "2.2.1"

@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import { Checkbox, CheckboxTypes, Label } from '@sieutoc/ui';
 
-import { Checkbox, CheckboxTypes } from './checkbox';
-import { Label } from '.';
 const checkboxSizes: CheckboxTypes['size'][] = ['xs', 'sm', 'md', 'lg'];
 const meta = {
   title: 'Checkbox',

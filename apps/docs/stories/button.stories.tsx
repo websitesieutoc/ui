@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-
-import { Button, ButtonProps } from './button';
+import { Button, ButtonProps } from '@sieutoc/ui';
 
 const variantOptions: ButtonProps['variant'][] = ['solid', 'outline', 'ghost'];
 const sizeOptions: ButtonProps['size'][] = ['xs', 'sm', 'md', 'lg'];

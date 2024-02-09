@@ -7,7 +7,7 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from './select';
+} from '@sieutoc/ui';
 const meta: Meta<typeof Select> = {
   title: 'Select',
   component: Select,

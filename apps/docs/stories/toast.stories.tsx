@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Toaster, toast } from './toast';
-import { Button } from '.';
+import { Button, Toaster, toast } from '@sieutoc/ui';
 
 //👇 This default export determines where your story goes in the story list
 const meta: Meta<typeof Toaster> = {

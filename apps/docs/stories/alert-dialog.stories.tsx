@@ -9,7 +9,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from './alert-dialog';
+} from '@sieutoc/ui';
 import { Button } from './button';
 
 const meta = {

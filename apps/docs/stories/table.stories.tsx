@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Table, TableCaption, Tbody, Td, Tfoot, Th, Thead, Tr } from './table';
+import { Table, TableCaption, Tbody, Td, Tfoot, Th, Thead, Tr } from '@sieutoc/ui';
 
 //👇 This default export determines where your story goes in the story list
 const meta: Meta<typeof Table> = {

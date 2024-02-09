@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Avatar, AvatarFallback, AvatarImage, AvatarProps } from './avatar';
+import { Avatar, AvatarFallback, AvatarImage, AvatarProps } from '@sieutoc/ui';
 
 const sizeOptions: AvatarProps['size'][] = ['xs', 'sm', 'md', 'lg', 'xl'];
 const meta = {

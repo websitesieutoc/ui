@@ -6,7 +6,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from './card';
+} from '@sieutoc/ui';
 import { Button, Input, Label } from '.';
 
 const meta = {

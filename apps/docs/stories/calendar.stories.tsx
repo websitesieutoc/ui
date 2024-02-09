@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Calendar } from './calendar';
+import { Calendar } from '@sieutoc/ui';
 
 const meta = {
   title: 'Calendar',

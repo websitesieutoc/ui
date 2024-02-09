@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Label } from './label';
-import { Input } from './input';
+import { Label, Input } from '@sieutoc/ui';
 
 //👇 This default export determines where your story goes in the story list
 const meta: Meta<typeof Label> = {
